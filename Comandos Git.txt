@@ -1,0 +1,25 @@
+Comandos Git:
+$ git init - Iniciar
+$ git add readme.md - Adicionar o ficheiro readme
+$ git status - Saber o status 
+$ git commit -am "Primeiro Commit" - Primeiro commit
+$ git config --global user.email "berto_56262@hotmail.com" - Configurar mail no Git
+
+$ git config --global user.name "doAndaime" - Configurar username no Git
+$ git config -l - Lista as configurações do Git
+$ git branch -M "main" - Muda nome da branch para "main"
+
+echo "# GitProg" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/doAndaime/GitProg.git
+git push -u origin main
+
+git remote add origin https://github.com/doAndaime/GitProg.git
+git branch -M main
+git push -u origin main
+
+
+
